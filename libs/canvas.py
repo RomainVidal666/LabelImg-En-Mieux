@@ -409,21 +409,27 @@ class Canvas(QWidget):
 
     def deleteSelected(self):
         if len(self.selectedShape) > 0:
-            shape = self.selectedShape[0]
-            self.shapes.remove(self.selectedShape[0])
-            self.selectedShape.remove(self.selectedShape[0])
+            shapeDeleted = []
+            for shape in self.selectedShape:
+                shapeDeleted.append(shape)
+                self.shapes.remove(shape)
+            self.selectedShape = []
             self.update()
-            return shape
+            return shapeDeleted
 
     def copySelectedShape(self):
         if len(self.selectedShape) > 0:
-            shape = self.selectedShape[0].copy()
+            copiedShapes = []
+            for shapeSelected in self.selectedShape:
+                shape = shapeSelected.copy()
+                shape.selected = True
+                copiedShapes.append(shape)
+                self.boundedShiftShape(shape)
             self.deSelectAllShape()
-            self.shapes.append(shape)
-            shape.selected = True
-            self.selectedShape[0] = shape
-            self.boundedShiftShape(shape)
-            return shape
+            for newShape in copiedShapes:
+                self.shapes.append(newShape)
+            self.selectedShape = copiedShapes
+            return copiedShapes
 
     def boundedShiftShape(self, shape):
         # Try to move in one direction, and if it fails in another.

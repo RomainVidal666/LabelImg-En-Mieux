@@ -2,111 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca941f78-357c-4995-be0d-fdfba74c5cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/labelImg-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HISTORY.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/build-for-macos.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/build-for-pypi.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/build-ubuntu-binary.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/build-windows-binary.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/envsetup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build-tools/run-in-container.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/predefined_classes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issue_template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labelImg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/canvas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/colorDialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/hashableQListWidgetItem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/labelDialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/labelFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/pascal_voc_io.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/shape.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/stringBundle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/toolBar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/ustr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/yolo_io.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/zoomWidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements/requirements-linux-python3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/app.icns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/app.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/color_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/done.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/done.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/expert1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/expert2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/feBlend-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/fit-width.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/fit-window.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/fit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/format_voc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/format_yolo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/labels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/labels.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/open.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/quit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/resetall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/save-as.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/save-as.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/save.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/undo-cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/verify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/zoom-in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/zoom-out.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/icons/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/strings/strings-zh-CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/strings/strings-zh-TW.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/strings/strings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test.512.512.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_io.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_qt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_stringBundle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/臉書.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labelImg.py" beforeDir="false" afterPath="$PROJECT_DIR$/labelImg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/canvas.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/canvas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,54 +104,59 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575747912641" />
+    <state x="424" y="26" key="CommitChangelistDialog2" timestamp="1575802119777">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="424" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1575802119777" />
     <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1575802080473">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575802080473" />
-    <state width="1493" height="342" key="GridCell.Tab.0.bottom" timestamp="1575801472775">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1575805609469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
-    <state width="1493" height="342" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
-    <state width="1493" height="342" key="GridCell.Tab.0.center" timestamp="1575801472775">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575805609469" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1575805609469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
-    <state width="1493" height="342" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
-    <state width="1493" height="342" key="GridCell.Tab.0.left" timestamp="1575801472775">
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1575805609469" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1575805609469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
-    <state width="1493" height="342" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
-    <state width="1493" height="342" key="GridCell.Tab.0.right" timestamp="1575801472775">
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1575805609469" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1575805609469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
-    <state width="1493" height="342" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
-    <state width="1493" height="342" key="GridCell.Tab.1.bottom" timestamp="1575801472701">
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1575805609469" />
+    <state width="1515" height="342" key="GridCell.Tab.1.bottom" timestamp="1575805593534">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793049" />
-    <state width="1493" height="342" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
-    <state width="1493" height="342" key="GridCell.Tab.1.center" timestamp="1575801472701">
+    <state width="1515" height="342" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575805593534" />
+    <state width="1515" height="342" key="GridCell.Tab.1.center" timestamp="1575805593534">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793048" />
-    <state width="1493" height="342" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
-    <state width="1493" height="342" key="GridCell.Tab.1.left" timestamp="1575801472701">
+    <state width="1515" height="342" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1575805593534" />
+    <state width="1515" height="342" key="GridCell.Tab.1.left" timestamp="1575805593534">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793048" />
-    <state width="1493" height="342" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
-    <state width="1493" height="342" key="GridCell.Tab.1.right" timestamp="1575801472701">
+    <state width="1515" height="342" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1575805593534" />
+    <state width="1515" height="342" key="GridCell.Tab.1.right" timestamp="1575805593534">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793048" />
-    <state width="1493" height="342" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
-    <state x="461" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1575747497421">
+    <state width="1515" height="342" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1575805593534" />
+    <state x="461" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1575803238289">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="461" y="284" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575747497420" />
+    <state x="461" y="284" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1575803238289" />
     <state x="462" y="169" width="611" height="526" key="find.popup" timestamp="1575801663519">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -274,10 +177,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="f.copy(&quot;string.txt&quot;)" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

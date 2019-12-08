@@ -842,7 +842,8 @@ class MainWindow(QMainWindow, WindowMixin):
             return False
 
     def copySelectedShape(self):
-        self.addLabel(self.canvas.copySelectedShape())
+        for shape in self.canvas.copySelectedShape():
+            self.addLabel(shape)
         # fix copy and delete
         self.shapeSelectionChanged(True)
 
@@ -1400,7 +1401,8 @@ class MainWindow(QMainWindow, WindowMixin):
             self.setDirty()
 
     def deleteSelectedShape(self):
-        self.remLabel(self.canvas.deleteSelected())
+        for shape in self.canvas.deleteSelected():
+            self.remLabel(shape)
         self.setDirty()
         if self.noShapes():
             for action in self.actions.onShapesPresent:
