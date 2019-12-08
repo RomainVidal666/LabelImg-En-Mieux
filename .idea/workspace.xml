@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca941f78-357c-4995-be0d-fdfba74c5cc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/labelImg-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HISTORY.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/build-for-macos.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/build-for-pypi.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/build-ubuntu-binary.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/build-windows-binary.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/envsetup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tools/run-in-container.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/predefined_classes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issue_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labelImg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/colorDialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/hashableQListWidgetItem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/labelDialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/labelFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/pascal_voc_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/stringBundle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/toolBar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/ustr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/yolo_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/zoomWidget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements/requirements-linux-python3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/app.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/app.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/color_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/done.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/expert1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/expert2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/feBlend-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/fit-width.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/fit-window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/fit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/format_voc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/format_yolo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/labels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/labels.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/quit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/resetall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/save-as.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/save-as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/undo-cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/verify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/zoom-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/zoom-out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icons/zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/strings/strings-zh-CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/strings/strings-zh-TW.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/strings/strings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test.512.512.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_qt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_stringBundle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/臉書.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UfPMT6lkRhKhp0QzYGbO25I6qq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.labelImg">
+    <configuration name="labelImg (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labelImg-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$ (1)/labelImg-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$ (1)/labelImg-master/labelImg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="labelImg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labelImg-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labelImg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.labelImg" />
+        <item itemvalue="Python.labelImg (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca941f78-357c-4995-be0d-fdfba74c5cc9" name="Default Changelist" comment="" />
+      <created>1575744627741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575744627741</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575747912641">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575747912641" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1575802080473">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575802080473" />
+    <state width="1493" height="342" key="GridCell.Tab.0.bottom" timestamp="1575801472775">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
+    <state width="1493" height="342" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
+    <state width="1493" height="342" key="GridCell.Tab.0.center" timestamp="1575801472775">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
+    <state width="1493" height="342" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
+    <state width="1493" height="342" key="GridCell.Tab.0.left" timestamp="1575801472775">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
+    <state width="1493" height="342" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
+    <state width="1493" height="342" key="GridCell.Tab.0.right" timestamp="1575801472775">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793047" />
+    <state width="1493" height="342" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1575801472775" />
+    <state width="1493" height="342" key="GridCell.Tab.1.bottom" timestamp="1575801472701">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793049" />
+    <state width="1493" height="342" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
+    <state width="1493" height="342" key="GridCell.Tab.1.center" timestamp="1575801472701">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793048" />
+    <state width="1493" height="342" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
+    <state width="1493" height="342" key="GridCell.Tab.1.left" timestamp="1575801472701">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793048" />
+    <state width="1493" height="342" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
+    <state width="1493" height="342" key="GridCell.Tab.1.right" timestamp="1575801472701">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575760793048" />
+    <state width="1493" height="342" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1575801472701" />
+    <state x="461" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1575747497421">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="461" y="284" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575747497420" />
+    <state x="462" y="169" width="611" height="526" key="find.popup" timestamp="1575801663519">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="462" y="169" width="611" height="526" key="find.popup/0.0.1536.864/1920.0.1280.800@0.0.1536.864" timestamp="1575749118820" />
+    <state x="462" y="169" width="611" height="526" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1575801663519" />
+    <state x="491" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1575800778531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="491" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.864@0.0.1536.864" timestamp="1575800778531" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/labelImg.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="f.copy(&quot;string.txt&quot;)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

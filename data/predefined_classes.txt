@@ -1,0 +1,4 @@
+red player
+blue player
+ball
+cage
