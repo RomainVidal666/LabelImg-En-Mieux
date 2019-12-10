@@ -258,13 +258,14 @@ class MainWindow(QMainWindow, WindowMixin):
                          'Ctrl+H', 'hide', getStr('hideAllBoxDetail'),
                          enabled=False)
         showAll = action('&Show\nRectBox', partial(self.togglePolygons, True),
-                         'Ctrl+A', 'hide', getStr('showAllBoxDetail'),
+                         'Ctrl+Shift+H', 'hide', getStr('showAllBoxDetail'),
                          enabled=False)
 
         help = action(getStr('tutorial'), self.showTutorialDialog, None, 'help', getStr('tutorialDetail'))
         showInfo = action(getStr('info'), self.showInfoDialog, None, 'help', getStr('info'))
         deselect = action(getStr('resetAll'), self.deselectShape, None, 'help', getStr('resetAll'))
 
+        selectAll = action(getStr('resetAll'), self.selectAllShape, None, 'help', getStr('resetAll'))
         copyShape = action(getStr('copy'), self.copy, "Ctrl+C", 'edit', getStr('copy'))
         pastShape = action(getStr('past'), self.past, "Ctrl+V", 'edit', getStr('past'))
 
@@ -331,7 +332,8 @@ class MainWindow(QMainWindow, WindowMixin):
 
         # Store actions for further handling.
         self.actions = struct(save=save, save_format=save_format, saveAs=saveAs, open=open, close=close, resetAll = resetAll,
-                              lineColor=color1, create=create, delete=delete, edit=edit, copy=copy, copyShape=copyShape, pastShape=pastShape,
+                              lineColor=color1, create=create, delete=delete, edit=edit, copy=copy,
+                              selectAll=selectAll, copyShape=copyShape, pastShape=pastShape,
                               createMode=createMode, editMode=editMode, advancedMode=advancedMode,
                               shapeLineColor=shapeLineColor, shapeFillColor=shapeFillColor,
                               zoom=zoom, zoomIn=zoomIn, zoomOut=zoomOut, zoomOrg=zoomOrg,
@@ -340,11 +342,11 @@ class MainWindow(QMainWindow, WindowMixin):
                               fileMenuActions=(
                                   open, opendir, save, saveAs, close, resetAll, quit),
                               beginner=(), advanced=(),
-                              editMenu=(edit, copy, delete, copyShape, pastShape,
+                              editMenu=(edit, copy, delete, selectAll, copyShape, pastShape,
                                         None, color1, self.drawSquaresOption),
-                              beginnerContext=(create, edit, copy, delete, copyShape, pastShape),
+                              beginnerContext=(create, edit, copy, delete, selectAll, copyShape, pastShape),
                               advancedContext=(createMode, editMode, edit, copy,
-                                               delete, copyShape, pastShape, shapeLineColor, shapeFillColor),
+                                               delete, selectAll, copyShape, pastShape, shapeLineColor, shapeFillColor),
                               onLoadActive=(
                                   close, create, createMode, editMode),
                               onShapesPresent=(saveAs, hideAll, showAll))
@@ -633,11 +635,21 @@ class MainWindow(QMainWindow, WindowMixin):
             self.saveCopy = self.canvas.selectedShape
 
     def past(self):
+        new_shapes = []
         for shape in self.saveCopy:
-            self.canvas.shapes.append(shape)
-            self.addLabel(shape)
-        self.canvas.selectedShape = self.saveCopy
+            new_shape = shape.copy()
+            new_shape.moveBy(QPoint(3, 3))
+            self.canvas.shapes.append(new_shape)
+            self.addLabel(new_shape)
+            new_shapes.append(new_shape)
+        self.canvas.selectedShape = new_shapes
         self.setDirty()
+        self.canvas.update()
+
+    def selectAllShape(self):
+        self.canvas.selectedShape = []
+        for shape in self.canvas.shapes:
+            self.canvas.selectedShape.append(shape)
         self.canvas.update()
 
 
@@ -1429,7 +1441,7 @@ class MainWindow(QMainWindow, WindowMixin):
     def copyShape(self):
         self.canvas.endMove(copy=True)
         for shape in self.canvas.selectedShape:
-            self.addLabel(shape)
+            self.addLabel(shape.copy())
         self.setDirty()
 
     def moveShape(self):
